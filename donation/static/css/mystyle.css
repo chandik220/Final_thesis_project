@@ -1,0 +1,62 @@
+.navbar-brand{
+  font-family: 'Monotype Corsiva';
+  font-size:45px;
+  font weight: bold;
+}
+
+.nav-link{
+  color: black !important;
+  font-size: 20px
+}
+
+.nav-link:hover{
+  color: green !important;
+  background-color: orange;
+  border-radius: 30px;
+}
+
+#footer a,#contact a{
+color: #EE1D29;
+}
+
+#footer a:hover {
+color: yellow;
+}
+
+#contact a:hover{
+color: blue;
+}
+
+/*scroll button start*/
+#scrollbtn
+{
+position:fixed;
+bottom:20px;
+right:40px;
+z-index:99;
+border:none;
+color:re;
+background:#00abff;
+padding:10px;
+border-radius:10px;
+}
+
+/*scroll button ends*/
+html{
+scroll-behavior:smooth;
+}
+
+/*login page css start*/
+#login{
+background-size:100%;
+background-repeat:no-repeat;
+opacity:0.8;
+background-position:0px 50px;
+}
+/*login page css end*/
+
+
+#signupform{
+background:url('/static/images/bg_texture.png');
+
+}
